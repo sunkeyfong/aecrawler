@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "AendgeTech提供的简单抓取工具",
   "main": "dist/index.js",
-  "bin": {
-    "aecrawl": "bin/index.js"
-  },
   "scripts": {
     "crawl": "./bin/crawl.js"
   },
