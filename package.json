@@ -1,0 +1,25 @@
+{
+  "name": "ae-crawler",
+  "version": "0.0.1",
+  "description": "AendgeTech提供的简单抓取工具",
+  "main": "dist/index.js",
+  "bin": {
+    "aecrawl": "bin/index.js"
+  },
+  "scripts": {
+    "crawl": "./bin/crawl.js"
+  },
+  "preferGlobal": true,
+  "author": "sunkeyfong <hi@sunkey.me> (http://sunkey.me)",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6"
+  },
+  "homepage": "https://anedge.tech",
+  "repository": "https://github.com/sunkeyfong/ae-crawl",
+  "dependencies": {
+    "crawler": "^1.3.0",
+    "temme": "^0.8.3"
+  },
+  "devDependencies": {}
+}
